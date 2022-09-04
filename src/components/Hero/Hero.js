@@ -16,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
         Fullstack Developer
         </SectionText>
-        <Button onClick={props.handleClick}><a href='../../assets/cv.pdf' download>Download CV</a></Button>
+        <Button onClick={props.handleClick}><a href='https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf' download>Download CV</a></Button>
         
       </LeftSection>
     </Section>
