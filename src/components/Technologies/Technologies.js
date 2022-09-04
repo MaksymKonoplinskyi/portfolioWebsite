@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+    My current stack of technologies is HTML5, CSS3, JavaScript, React, Redux, Node JS. Learning Solidity and want to progress in this field further on. I have PhD degree and achieved extensive experience in teamwork on scientific and technical projects and in teaching people. For more than 5 years I had been studying blockchain technologies, cryptography and cryptocurrency.
     </SectionText>
     <List>
       <ListItem>
@@ -20,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            HTML5, CSS3, SASS, Java Script, React, Redux
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +31,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node JS, Express, Sequelize, MongoDB, Solidity
           </ListParagraph>
         </ListContainer>
       </ListItem>
