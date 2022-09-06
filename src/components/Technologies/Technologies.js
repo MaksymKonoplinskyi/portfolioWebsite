@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-    My current stack of technologies is HTML5, CSS3, JavaScript, React, Redux, Node JS. Learning Solidity and want to progress in this field further on. I have PhD degree and achieved extensive experience in teamwork on scientific and technical projects and in teaching people. For more than 5 years I had been studying blockchain technologies, cryptography and cryptocurrency.
+    My current stack of technologies is HTML5, CSS3, SASS, JavaScript, React, Redux, Node JS, Express, Sequelize, MongoDB. Learning Solidity and want to progress in this field further on.
     </SectionText>
     <List>
       <ListItem>
