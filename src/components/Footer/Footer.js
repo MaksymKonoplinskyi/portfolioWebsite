@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Slogan</Slogan>
+          <Slogan>The best job is a high-paying hobby (Henry Ford)</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/MaksymKonoplinskyi">
