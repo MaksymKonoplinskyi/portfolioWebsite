@@ -19,7 +19,12 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            HTML5, CSS3, SASS, Java Script, React, Redux
+            HTML5 <br />
+            CSS3 <br /> 
+            SASS <br /> 
+            Java Script <br /> 
+            React <br />
+            Redux 
           </ListParagraph>
         </ListContainer>
       </ListItem>

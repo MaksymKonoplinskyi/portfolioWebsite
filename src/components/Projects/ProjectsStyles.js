@@ -35,9 +35,14 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
+export const SubTitleContent = styled.div`
+  text-align: center;
+  z-index: 20;
+  width: 100%;
+  padding-top: 1.5rem;
+`;
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
