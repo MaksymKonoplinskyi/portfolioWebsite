@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/1.png',
     tags: ['Mongo', 'Express', 'React', 'Node', 'SASS'],
     source: 'https://github.com/MaksymKonoplinskyi/blog',
-    visit: 'https://gran-blog.vercel.app//',
+    visit: 'https://gran-blog.vercel.app/',
     id: 0,
   },
   {
