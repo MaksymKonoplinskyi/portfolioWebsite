@@ -38,11 +38,14 @@ export const TitleContent = styled.div`
   width: 100%;
 `;
 
-export const SubTitleContent = styled.div`
+export const SubTitleContent = styled.h3`
   text-align: center;
   z-index: 20;
   width: 100%;
   padding-top: 1.5rem;
+  color: #9cc9e3;
+  letter-spacing: 2px;
+  font-size: 2.2rem
 `;
 
 export const HeaderThree = styled.h3`
@@ -74,7 +77,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 3rem;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
@@ -90,19 +93,21 @@ export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
+  justify-content: space-between;
+  margin: 2.5rem 3rem;
+
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#fffffe;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #1C5E8A;
 border-radius: 15px;
 transition: 0.5s;
+width: 48%;
 &:hover{
-  background: #801414;
+  background: #2E86CD;
 
 }
 `;
@@ -110,7 +115,10 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding: 1rem 3rem;
+margin: 1rem 3rem;
+border-radius 15px;
+background: #112538;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
