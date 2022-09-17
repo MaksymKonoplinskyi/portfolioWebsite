@@ -12,7 +12,7 @@ export const projects = [
     title: 'Uniswap clone',
     description: "Fully working decentralized application. The application uses smart contracts built and deployed using crunq technology in the Goerli network as a backend.",
       image: '/images/3.png',
-      tags: ['cranq', 'React', 'Node', 'Tailwind', 'Alchemy', 'Solidity'],
+      tags: ['Cranq', 'React', 'Tailwind', 'Alchemy', 'Solidity'],
     source: 'https://github.com/MaksymKonoplinskyi/uniswap3.0',
     visit: 'https://uniswap3.vercel.app/',
     id: 0,
