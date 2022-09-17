@@ -17,7 +17,7 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
+    padding: ${(props) => props.nopadding ? "0" : "0px 0px 0" } ;
 
     width: calc(100vw - 32px);
     flex-direction: column;
@@ -196,6 +196,7 @@ export const ButtonBack = styled.div`
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
+    
   }
 `
 
@@ -238,7 +239,7 @@ export const ButtonFront = styled.button`
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${({ alt }) => alt ? '20px' : '16px'};
-  }
+      }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
