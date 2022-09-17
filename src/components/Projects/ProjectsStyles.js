@@ -93,7 +93,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-between;
-  margin: 3rem 3rem 4rem 3rem;
+  margin: 2.5rem 3rem 4rem 3rem;
 
 `;
 
