@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Uniswap clone',
-    description: "Fully working decentralized application. Smart contracts built and deployed in the Goerli network using crunq technology were used as a backend.",
+    description: "Fully working decentralized application. The application uses smart contracts built and deployed using crunq technology in the Goerli network as a backend.",
       image: '/images/3.png',
       tags: ['cranq', 'React', 'Node', 'Tailwind', 'Alchemy', 'Solidity'],
     source: 'https://github.com/MaksymKonoplinskyi/uniswap3.0',
