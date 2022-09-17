@@ -30,7 +30,7 @@ const Technologies = () => (
         )
 
       })}
-      <ListItem>
+      {/* <ListItem>
         <picture>
           <DiReact size="3rem" />
         </picture>
@@ -58,7 +58,7 @@ const Technologies = () => (
             Node JS, <br />Express, <br />Sequelize, <br />MongoDB, <br />Solidity
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+      </ListItem> */}
       {/* <ListItem>
         <picture>
           <DiZend size="3rem" />
