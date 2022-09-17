@@ -32,23 +32,24 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  margin: 3rem 0;
+  margin: 1rem 0;
   
   @media ${props => props.theme.breakpoints.lg}{
-    margin: 64px 0;
+    // margin: 64px 0;
     // grid-template-columns: repeat(2, 1fr);
   }
 
   @media ${props => props.theme.breakpoints.md}{
-    margin: 64px 0;
-    // gap: 24px
-    grid-template-columns: repeat(2, 1fr);
+    // margin: 64px 0;
+    
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 20px
   }
   
   @media ${props => props.theme.breakpoints.sm}{
     // display: flex;
     // flex-direction: column;
-    margin: 32px 0;
+    // margin: 32px 0;
   }
 `
 
@@ -145,4 +146,16 @@ color: #577cc6;
 font-size: 2.5rem;
 // padding: 15px;
 margin: 12px 0px;
+
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
 `

@@ -78,7 +78,7 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 100%;// 64px;
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
@@ -89,12 +89,12 @@ export const SectionDivider = styled.div`
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
+    // width: 48px;
     height: 4px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
+    // width: 32px;
     height: 2px;
   }
 `
