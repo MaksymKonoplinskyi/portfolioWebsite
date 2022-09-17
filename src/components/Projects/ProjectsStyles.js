@@ -52,7 +52,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding-top: 10px;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -118,7 +118,7 @@ justify-content: space-around;
 padding: 1rem 3rem;
 margin: 1rem 3rem;
 border-radius 15px;
-background: #112538;
+background: #19202D;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
