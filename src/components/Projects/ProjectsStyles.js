@@ -10,7 +10,8 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-// padding: 3rem;
+padding: 15px;
+// margin: -25px;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
