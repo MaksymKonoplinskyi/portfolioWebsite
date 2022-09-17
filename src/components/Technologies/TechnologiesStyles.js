@@ -36,16 +36,18 @@ export const List = styled.ul`
   
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
+    // grid-template-columns: repeat(2, 1fr);
   }
 
   @media ${props => props.theme.breakpoints.md}{
     margin: 64px 0;
-    gap: 24px
+    // gap: 24px
+    grid-template-columns: repeat(2, 1fr);
   }
   
   @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     margin: 32px 0;
   }
 `

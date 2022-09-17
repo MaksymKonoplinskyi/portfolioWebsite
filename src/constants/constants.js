@@ -32,12 +32,12 @@ export const projects = [
 export const technologies = [
   {
     title: 'Front-End',
-    tags: ['HTML5', 'Java Script', 'React', 'Redux'],
+    tags: ['HTML 5', 'Java Script', 'React', 'Redux'],
     id: 0,
   },
   {
     title: 'Styles',
-    tags: ['CSS3', 'SASS', 'Tailwind', 'Material-UI'],
+    tags: ['CSS 3', 'SASS', 'Tailwind', 'Material-UI'],
     id: 0,
   },
   {
