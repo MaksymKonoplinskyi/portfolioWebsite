@@ -53,7 +53,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding-top: 10px;
+  padding-top: 20px;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -95,7 +95,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem 3rem;
+  margin: 3rem 3rem;
 
 `;
 
