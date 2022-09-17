@@ -9,6 +9,15 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Uniswap clone',
+    description: "Fully working decentralized application. Smart contracts built and deployed in the Goerli network using crunq technology were used as a backend.",
+      image: '/images/3.png',
+      tags: ['cranq', 'React', 'Node', 'Tailwind', 'Alchemy', 'Solidity'],
+    source: 'https://github.com/MaksymKonoplinskyi/uniswap3.0',
+    visit: 'https://uniswap3.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'E-Commerce',
     description:"Discover Amazing places in Japan. Travel company landing page for selling tours to Japan. The main steps to optimize the site for search engines are quite complete: semantically correct HTML5 is used, the code is checked for validity. Site loading speed has been optimized.",
     image: '/images/2.png',
