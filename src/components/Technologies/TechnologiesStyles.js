@@ -139,8 +139,8 @@ max-width: 100%;
 `
 export const Tag = styled.li`
 display: block;
-color: #d8bfbf;
-font-size: 2.1rem;
+color: #577cc6;
+font-size: 2.5rem;
 // padding: 15px;
-margin: 15px;
+margin: 12px 0px;
 `

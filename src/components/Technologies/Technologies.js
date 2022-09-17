@@ -17,9 +17,9 @@ const Technologies = () => (
           <ListItem>
             <ListContainer>
               <ListTitle>{t.title}</ListTitle>
-              <ListParagraph>
+              {/* <ListParagraph>
                 Experiece with <br />
-              </ListParagraph>
+              </ListParagraph> */}
               <TagList>
                 {t.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
