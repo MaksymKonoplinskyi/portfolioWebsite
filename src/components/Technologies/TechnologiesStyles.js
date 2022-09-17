@@ -30,7 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin: 3rem 0;
   
@@ -130,4 +130,17 @@ export const ListIcon = styled.img`
     height: 32px;
     margin-bottom: 0px;
   }
+`
+export const TagList = styled.ul`
+// display: flex;
+// justify-content: space-around;
+//  padding: 2rem;
+max-width: 100%;
+`
+export const Tag = styled.li`
+display: block;
+color: #d8bfbf;
+font-size: 2.1rem;
+// padding: 15px;
+margin: 15px;
 `
