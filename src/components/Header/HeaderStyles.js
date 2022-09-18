@@ -3,14 +3,15 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  // grid-template-columns: repeat(3, 1fr);
   // grid-template-rows: 1fr;
   // grid-column-gap: 2rem;
   // padding: 1rem;
   padding-top: 2rem;
   margin: auto auto;
   max-width: 1040px;
+  
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -27,7 +28,7 @@ font-size: 2rem;
 
 
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  // grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -38,16 +39,17 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 3;
+  // grid-area: 1 / 2 / 2 / 3;
   display: flex;
+  flex: 1 1 auto;
   align-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 3 / 5;
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 3 / 2 / 4;
+  // grid-area: 1 / 3 / 2 / 4;
   display: flex;
   justify-content: end;
   align-items: center;
