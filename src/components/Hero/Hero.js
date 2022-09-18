@@ -3,27 +3,46 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import BackgroundAnimation from '../BackgrooundAnimation/BackgroundAnimation';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, ButtonBack, ButtonFront } from './HeroStyles';
 // import CV from '../../assets/cv.pdf';
 
-const Hero = (props) => (
-  <>
-    <Section grid nopadding>
-      <LeftSection>
-        <SectionTitle main>
-          Hello, I'm <br />
-          Maksym <br />
-          Konoplinskyi
-        </SectionTitle>
-        <SectionText>
-        Fullstack Developer
-        </SectionText>
-        <Button onClick={props.handleClick}><a href='https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf' download>Download CV</a></Button>
-        
-      </LeftSection>
-      <BackgroundAnimation />
-    </Section>
-  </>
-);
+const Hero = (props) => {
+  const handleClick = () => {
+    const url = "https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf";
+    const link = document.createElement("a");
+    link.href = url;
+    link.setAttribute("download", 'CV.pdf');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+
+
+
+  return (
+    <>
+      <Section grid nopadding>
+        <LeftSection>
+          <SectionTitle main>
+            Hello, I'm <br />
+            Maksym <br />
+            Konoplinskyi
+          </SectionTitle>
+          <SectionText>
+            Fullstack Developer
+          </SectionText>
+          <Button onClick={props.handleClick}><a href='https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf' download>Download CV</a></Button>
+
+          <ButtonBack onClick={handleClick}>
+            <p>Download CV</p>
+            {/* <ButtonFront></ButtonFront> */}
+          </ButtonBack>
+        </LeftSection>
+        <BackgroundAnimation />
+      </Section>
+    </>
+  );
+}
 
 export default Hero;
