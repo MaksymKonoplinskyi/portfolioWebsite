@@ -19,7 +19,7 @@ const Technologies = () => (
               <ListTitle>{t.title}</ListTitle>
               <TagList>
                 {t.tags.map((t, i) => {
-                  return <Tag key={i}>{t}</Tag>;
+                  return <Tag key={t + i}>{t}</Tag>;
                 })}
               </TagList>
             </ListContainer>
