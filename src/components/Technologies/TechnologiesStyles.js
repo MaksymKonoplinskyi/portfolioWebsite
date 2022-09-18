@@ -56,10 +56,9 @@ export const List = styled.ul`
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
-
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
-    margin-left: 18px;
+    // margin-left: 18px;
   }
 `
 
