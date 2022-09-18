@@ -31,6 +31,8 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 2;
   }

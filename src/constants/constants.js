@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Multi-User Blog',
-    description: "Full Stack MERN Application. A fully working APP is a multi-user blog for the Gran Extreme Club. Users can register, create their own posts and comment on posts of other users to discuss important events and current news related to the activities of the Gran Extreme Club.",
+    description: "Full stack MERN application. A fully working APP is a multi-user blog for the Gran Extreme Club. Users can register, create their own posts and comment on posts of other users to discuss important events and current news related to the activities of the Gran Extreme Club.",
     image: '/images/1.png',
     tags: ['Mongo', 'Express', 'React', 'Node', 'SASS'],
     source: 'https://github.com/MaksymKonoplinskyi/blog',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Uniswap clone',
-    description: "Fully working decentralized application. The application uses smart contracts built and deployed using crunq technology in the Goerli network as a backend.",
+    description: "Fully working decentralized Web3 application. The DAPP uses smart contracts created and deployed using crunq technology as a backend. Deploy smart contracts on the Goerli test network. Quick migration to the Ethereum mainnet or another EVM compatible network is possible.",
     image: '/images/3.png',
     tags: ['Cranq', 'React', 'Tailwind', 'Alchemy', 'Solidity'],
     source: 'https://github.com/MaksymKonoplinskyi/uniswap3.0',
