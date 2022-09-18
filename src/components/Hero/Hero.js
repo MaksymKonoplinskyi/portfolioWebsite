@@ -3,7 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import BackgroundAnimation from '../BackgrooundAnimation/BackgroundAnimation';
-import { LeftSection, ButtonBack, ButtonFront } from './HeroStyles';
+import { LeftSection, DownloadButton } from './HeroStyles';
 // import CV from '../../assets/cv.pdf';
 
 const Hero = (props) => {
@@ -16,10 +16,6 @@ const Hero = (props) => {
     link.click();
     document.body.removeChild(link);
   }
-
-
-
-
   return (
     <>
       <Section grid nopadding>
@@ -34,10 +30,10 @@ const Hero = (props) => {
           </SectionText>
           <Button onClick={props.handleClick}><a href='https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf' download>Download CV</a></Button>
 
-          <ButtonBack onClick={handleClick}>
+          <DownloadButton onClick={handleClick}>
             <p>Download CV</p>
             {/* <ButtonFront></ButtonFront> */}
-          </ButtonBack>
+          </DownloadButton>
         </LeftSection>
         <BackgroundAnimation />
       </Section>
