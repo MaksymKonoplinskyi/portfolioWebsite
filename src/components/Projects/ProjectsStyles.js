@@ -98,7 +98,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem 2rem 4rem 2rem;
+  margin: 2.5rem 1rem 4rem 1rem;
 
 `;
 
@@ -123,8 +123,8 @@ export const TagList = styled.ul`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
-padding: 1rem 1rem;
-margin: 1rem 2rem;
+padding:  1rem 1rem;
+margin: 1rem 1rem;
 border-radius 15px;
 background: #19202D;
 `
