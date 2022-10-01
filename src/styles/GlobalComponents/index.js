@@ -35,13 +35,13 @@ export const SectionTitle = styled.h2`
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
     line-height: ${(props) => props.main ? '56px' : '48px'};
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
 
@@ -50,7 +50,7 @@ export const SectionTitle = styled.h2`
     line-height: 40px;
     font-size: ${(props) => props.main ? '40px' : '40px'};
     line-height: ${(props) => props.main ? '50px' : '40px'};
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
   }
@@ -88,18 +88,18 @@ export const SectionDivider = styled.div`
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
-    margin: ${(props) => props.divider ? "4rem 0" : ""};
+    margin: ${(props) => props.divider ? "5rem 0" : "4rem 0"};
 
   @media ${(props) => props.theme.breakpoints.md} {
     // width: 48px;
     height: 4px;
-    margin: ${(props) => props.divider ? "3rem 0" : ""};
+    margin: ${(props) => props.divider ? "4rem 0" : "3rem 0"};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     // width: 32px;
     height: 2px;
-    margin: ${(props) => props.divider ? "2rem 0" : ""};
+    margin: ${(props) => props.divider ? "3rem 0" : "2rem 0"};
   }
 `
 export const SectionSubText = styled.p`

@@ -100,13 +100,14 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 color:#fffffe;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
+padding:1rem 0.7rem;
 background: #1C5E8A;
 border-radius: 15px;
 transition: 0.5s;
 width: 48%;
 text-align: center;
 // align-self: auto;
+// align-self: center;
 &:hover{
   background: #2E86CD;
 
