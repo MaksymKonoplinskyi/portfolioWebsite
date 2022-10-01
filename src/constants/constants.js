@@ -12,7 +12,7 @@ export const projects = [
     title: 'E-Commerce',
     description: "A fully working marketplace. The application is built on NEXT.JS using the React framework. Sanity is used as an СMS system. It has a fully responsive design and can be quickly re-targeted to any products. Maeketplace has integrated international payment system Stripe.",
     image: '/images/4.png',
-    tags: ['Sanity', 'React', 'Next JS', 'JavaScript'],
+    tags: ['Sanity', 'React', 'Next JS', 'JavaScript', 'Stripe'],
     source: 'https://github.com/MaksymKonoplinskyi/shop',
     visit: 'https://shop-mk.vercel.app/',
     id: 3,
