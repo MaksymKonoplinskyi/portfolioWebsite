@@ -51,7 +51,7 @@ export const SectionTitle = styled.h2`
     font-size: ${(props) => props.main ? '49px' : '40px'};
     line-height: ${(props) => props.main ? '49px' : '40px'};
     margin-bottom: 12px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
+    padding: ${(props) => props.main ? '26px 0 8px' : '0'};
     max-width: 100%;
   }
 `
