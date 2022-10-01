@@ -7,6 +7,15 @@ export const projects = [
     source: 'https://github.com/MaksymKonoplinskyi/blog',
     visit: 'https://gran-blog.vercel.app/',
     id: 0,
+  },  
+  {
+    title: 'E-Commerce',
+    description: "A fully working marketplace. The application is built on NEXT.JS using the React framework. Sanity is used as an СMS system. It has a fully responsive design and can be quickly re-targeted to any products. Maeketplace has integrated international payment system Stripe.",
+    image: '/images/4.png',
+    tags: ['Sanity', 'React', 'Next JS', 'JavaScript'],
+    source: 'https://github.com/MaksymKonoplinskyi/shop',
+    visit: 'https://shop-mk.vercel.app/',
+    id: 3,
   },
   {
     title: 'Uniswap clone',
@@ -26,15 +35,7 @@ export const projects = [
     visit: 'https://maksymkonoplinskyi.github.io/lending7/',
     id: 2,
   },
-  {
-    title: 'E-Commerce',
-    description: "Discover Amazing places in Japan. Travel company landing page for selling tours to Japan. The main steps to optimize the site for search engines are quite complete: semantically correct HTML5 is used, the code is checked for validity. Site loading speed has been optimized.",
-    image: '/images/4.png',
-    tags: ['Sanity', 'React', 'Next JS', 'JavaScript'],
-    source: 'https://github.com/MaksymKonoplinskyi/shop',
-    visit: 'https://shop-mk.vercel.app/',
-    id: 3,
-  },
+
 ];
 
 export const technologies = [
