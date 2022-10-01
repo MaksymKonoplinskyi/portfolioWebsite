@@ -11,7 +11,7 @@ export const GridContainer = styled.section`
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 place-items: center;
-column-gap: 2rem;
+column-gap: 3rem;
 row-gap: 5rem;
 width: 100%;
 margin-top:20px;
