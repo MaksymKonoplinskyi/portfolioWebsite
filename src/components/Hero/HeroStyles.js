@@ -30,7 +30,7 @@ export const DownloadButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  // margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
+  margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 40px'};
   color: #fff;
   background: ${({ alt }) => 1 ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
   cursor: pointer;
@@ -49,14 +49,14 @@ export const DownloadButton = styled.div`
     width: ${({ alt }) => alt ? '150px' : '184px'};
     height: ${({ alt }) => alt ? '52px' : '48px'};
     // font-size: ${({ alt }) => alt ? '20px' : '16px'};
-    // margin-bottom: ${({ alt }) => alt ? '0' : '64px'};
+    margin-bottom: ${({ alt }) => alt ? '0' : '35px'};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     height: 48px;
     // font-size: 24px;
-    // margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
+    margin-bottom: ${({ alt }) => alt ? '0' : '30px'};
     
   }
 `
