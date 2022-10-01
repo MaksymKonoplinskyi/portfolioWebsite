@@ -24,7 +24,7 @@ margin-top:20px;
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
-  // box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.9);
+  // box-shadow: 3px 3px 20px rgba(80, 78, 78, 1);
   box-shadow: 0px 0px 10px 10px rgba(98, 227, 255, 0.3);
   text-align: center;
   width: 100%;// 400px;
@@ -32,7 +32,7 @@ export const BlogCard = styled.div`
     width: 100%;
   }
   &:hover {
-    box-shadow: 0px 0px 20px 20px rgba(148, 93, 214, 1);
+    box-shadow: 0px 0px 15px 15px rgba(148, 93, 214, 1);
     // border: 1px solid #fff;
   }
 `;
