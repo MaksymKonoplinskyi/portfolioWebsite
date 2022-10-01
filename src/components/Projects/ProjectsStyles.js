@@ -20,8 +20,7 @@ width: 100%;
   // padding: 2rem;
   padding-bottom: 0;
 }
-
-`
+`;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.9);
@@ -29,6 +28,10 @@ export const BlogCard = styled.div`
   width: 100%;// 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+  &:hover {
+    box-shadow: 3px 3px 20px rgba(148, 93, 214, 0.9);
+    // border: 1px solid #fff;
   }
 `;
 export const TitleContent = styled.div`
