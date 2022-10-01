@@ -123,7 +123,7 @@ export const TagList = styled.ul`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
-padding:  1rem 1rem;
+padding:  1rem 0.5rem;
 margin: 1rem 1rem;
 border-radius 15px;
 background: #19202D;
