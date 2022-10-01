@@ -121,6 +121,7 @@ text-align: center;
 
 export const TagList = styled.ul`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 padding: 1rem 1rem;
 margin: 1rem 2rem;
