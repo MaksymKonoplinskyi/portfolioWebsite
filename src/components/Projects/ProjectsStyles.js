@@ -24,7 +24,7 @@ width: 100%;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.9);
   text-align: center;
   width: 100%;// 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -100,7 +100,7 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 color:#fffffe;
 font-size: 1.6rem;
-padding:1rem 0.7rem;
+padding:1rem 0.8rem;
 background: #1C5E8A;
 border-radius: 15px;
 transition: 0.5s;
