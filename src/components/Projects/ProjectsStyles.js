@@ -12,7 +12,7 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 place-items: center;
 column-gap: 2rem;
-row-gap: 3rem;
+row-gap: 5rem;
 width: 100%;
 margin-top:20px;
 @media ${(props) => props.theme.breakpoints.sm} {
