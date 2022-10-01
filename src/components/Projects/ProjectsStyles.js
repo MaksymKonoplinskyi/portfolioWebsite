@@ -14,6 +14,7 @@ place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
 width: 100%;
+margin-top:20px;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
