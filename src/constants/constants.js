@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'E-Commerce',
+    title: 'Lending page',
     description: "Discover Amazing places in Japan. Travel company landing page for selling tours to Japan. The main steps to optimize the site for search engines are quite complete: semantically correct HTML5 is used, the code is checked for validity. Site loading speed has been optimized.",
     image: '/images/2.png',
     tags: ['HTML5', 'CSS', 'JavaScript'],
@@ -26,7 +26,15 @@ export const projects = [
     visit: 'https://maksymkonoplinskyi.github.io/lending7/',
     id: 2,
   },
-
+  {
+    title: 'E-Commerce',
+    description: "Discover Amazing places in Japan. Travel company landing page for selling tours to Japan. The main steps to optimize the site for search engines are quite complete: semantically correct HTML5 is used, the code is checked for validity. Site loading speed has been optimized.",
+    image: '/images/4.png',
+    tags: ['Sanity', 'React', 'Next JS', 'JavaScript'],
+    source: 'https://github.com/MaksymKonoplinskyi/shop',
+    visit: 'https://shop-mk.vercel.app/',
+    id: 3,
+  },
 ];
 
 export const technologies = [
