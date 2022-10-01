@@ -29,7 +29,7 @@ export const Section = styled.section`
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: ${(props) => props.main ? '65px' : '56px'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
@@ -48,8 +48,8 @@ export const SectionTitle = styled.h2`
   @media ${props => props.theme.breakpoints.sm}{
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => props.main ? '40px' : '40px'};
-    line-height: ${(props) => props.main ? '50px' : '40px'};
+    font-size: ${(props) => props.main ? '49px' : '40px'};
+    line-height: ${(props) => props.main ? '49px' : '40px'};
     margin-bottom: 12px;
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
