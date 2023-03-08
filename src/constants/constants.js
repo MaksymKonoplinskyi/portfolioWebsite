@@ -40,7 +40,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: "AI imege generator",
+    title: "AI image generator",
     description:
       "Create images through DALL-E AI and share them with the community. The full stack MERN application allows you to generate images using AI through the OpenAI API. The result can be shared with the community using Cloudinary. Implemented live search and download capability.",
     image: "/images/5.png",
