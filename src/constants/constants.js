@@ -54,7 +54,7 @@ export const projects = [
 export const technologies = [
   {
     title: "Front-End",
-    tags: ["HTML 5", "Java Script", "React", "Redux"],
+    tags: ["HTML 5", "JS/TS", "React", "Redux"],
     id: 0,
   },
   {
