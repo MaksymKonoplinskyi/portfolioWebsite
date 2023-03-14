@@ -8,7 +8,7 @@ import { LeftSection, DownloadButton } from './HeroStyles';
 
 const Hero = (props) => {
   const handleClick = () => {
-    const url = "https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/cv.pdf";
+    const url = "https://github.com/MaksymKonoplinskyi/portfolioWebsite/raw/master/public/CV.pdf";
     const link = document.createElement("a");
     link.href = url;
     link.setAttribute("download", 'CV.pdf');
