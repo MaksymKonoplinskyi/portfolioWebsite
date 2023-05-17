@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Art shop",
+    description:
+      "Full stack MERN application. A fully working APP is a multi-user blog for the Gran Extreme Club. Users can register, create their own posts and comment on posts of other users to discuss important events and current news related to the activities of the Gran Extreme Club.",
+    image: "/images/0.png",
+    tags: ["Mongo", "Express", "React", "Node", "SASS"],
+    source: "https://github.com/MaksymKonoplinskyi/blog",
+    visit: "https://gran-blog.vercel.app/",
+    id: 0,
+  },
+  {
     title: "Multi-User Blog",
     description:
       "Full stack MERN application. A fully working APP is a multi-user blog for the Gran Extreme Club. Users can register, create their own posts and comment on posts of other users to discuss important events and current news related to the activities of the Gran Extreme Club.",
@@ -7,7 +17,7 @@ export const projects = [
     tags: ["Mongo", "Express", "React", "Node", "SASS"],
     source: "https://github.com/MaksymKonoplinskyi/blog",
     visit: "https://gran-blog.vercel.app/",
-    id: 0,
+    id: 1,
   },
   {
     title: "E-Commerce",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["Sanity", "React", "Next JS", "JavaScript", "Stripe"],
     source: "https://github.com/MaksymKonoplinskyi/shop",
     visit: "https://shop-mk.vercel.app/",
-    id: 3,
+    id: 2,
   },
   {
     title: "Uniswap clone",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["Cranq", "React", "Tailwind", "Alchemy", "Solidity"],
     source: "https://github.com/MaksymKonoplinskyi/uniswap3.0",
     visit: "https://uniswap3.vercel.app/",
-    id: 1,
+    id: 3,
   },
   {
     title: "Lending page",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["HTML5", "CSS", "JavaScript"],
     source: "https://github.com/MaksymKonoplinskyi/lending7",
     visit: "https://maksymkonoplinskyi.github.io/lending7/",
-    id: 2,
+    id: 4,
   },
   {
     title: "AI image generator",
