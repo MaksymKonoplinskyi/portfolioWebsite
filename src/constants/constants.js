@@ -45,7 +45,7 @@ export const projects = [
       "Create images through DALL-E AI and share them with the community. The full stack MERN application allows you to generate images using AI through the OpenAI API. The result can be shared with the community using Cloudinary. Implemented live search and download capability.",
     image: "/images/5.png",
     tags: ["Type Script", "React", "Node JS", "Express", "Tailwind"],
-    source: "https://github.com/MaksymKonoplinskyi/dall-e_v3",
+    source: "https://github.com/MaksymKonoplinskyi/dalli-e_v3",
     visit: "https://dalli-e-v3.vercel.app/",
     id: 5,
   },
